@@ -1,0 +1,13 @@
+sudo insmod kprobe-example.ko
+sudo dmesg -c
+[34265.864141] kprobe_init: Planted kprobe at 0000000045751f3f
+[34265.864759] handler_pre: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c5, flags = 0x202
+[34265.864770] handler_post: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c9, flags = 0x202
+[34265.867244] handler_pre: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c5, flags = 0x202
+[34265.867258] handler_post: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c9, flags = 0x202
+[34265.868424] handler_pre: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c5, flags = 0x202
+[34265.868432] handler_post: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c9, flags = 0x202
+[34265.870449] handler_pre: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c5, flags = 0x202
+[34265.870459] handler_post: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c9, flags = 0x202
+[34265.879620] handler_pre: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c5, flags = 0x202
+[34265.879626] handler_post: <__x64_sys_write> p->addr = 0x0000000045751f3f,ip = ffffffff814406c9, flags = 0x202

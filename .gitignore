@@ -1,0 +1,6 @@
+.*
+!.gitignore
+!/blinking/.vscode/
+*.o
+*.ko
+*.mod
